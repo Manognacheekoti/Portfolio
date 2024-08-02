@@ -60,11 +60,11 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | ManognaCheekoti";
-            $("#favicon").attr("href","C:/Users/manog/OneDrive/Desktop/c2723a0519d5ea309c746d40635e09c5.png");
+            $("#favicon").attr("href","./assets/images/c2723a0519d5ea309c746d40635e09c5.png");
         }
         else {
             document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href","C:/Users/manog/OneDrive/Desktop/c2723a0519d5ea309c746d40635e09c5.png");
+            $("#favicon").attr("href","./assets/images/c2723a0519d5ea309c746d40635e09c5.png");
         }
     });
 
